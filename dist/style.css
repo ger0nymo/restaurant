@@ -77,6 +77,9 @@ button:hover {
     .about-us {
         width: 70%;
     }
+    .btn {
+        width: 40%;
+    }
 }
 input {
     width: 70%;
