@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.tab {
+    transition: all .1s;;
+    padding: 15px 0;
+}
+.tab:hover {
+    transform: scale(1.2);
+}
+.tabs {
+    background: rgba(109, 109, 109, 0.466);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+
+body {
+    background: url('../images/bg1.jpg');
+    background-size: cover;
+    height: 900px;
+    font-family: 'Merienda One', cursive;
+}
+.title {
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+}
+.about-us {
+    display: grid;
+    width: 40%;
+    background: rgba(61, 61, 61, 0.664);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about-us-title {
+    font-size: 28px;
+}
+.offer {
+    font-style: italic;
+}
+.intro {
+    font-size: 19px;
+    padding-top: 1em;
+}
+.header {
+    text-align: center;
+}
+.btn {
+    width: 20%;
+    color: white;
+    padding: 15px;
+    outline: none;
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    background-color: rgba(116, 204, 195, 0.555);
+    transition: all .2s;
+}
+button:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+    .about-us {
+        width: 70%;
+    }
+    .btn {
+        width: 40%;
+    }
+}
+input {
+    width: 70%;
+    height: 30px;
+    font-size: 1em;
+    text-align: center;
+}
+.navigation {
+    font-family: 'Merienda One', cursive;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
