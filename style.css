@@ -19,12 +19,7 @@
     font-size: 30px;
 }
 
-[data-tab-content] {
-    display: none;
-}
-.active[data-tab-content] {
-    display: block;
-}
+
 body {
     background: url('../images/bg1.jpg');
     background-size: cover;
@@ -65,8 +60,6 @@ body {
 }
 .btn {
     width: 20%;
-}
-button {
     color: white;
     padding: 15px;
     outline: none;
@@ -90,4 +83,12 @@ input {
     height: 30px;
     font-size: 1em;
     text-align: center;
+}
+.navigation {
+    font-family: 'Merienda One', cursive;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
 }
